@@ -46,7 +46,7 @@ class Train:
 
 
 if __name__ == '__main__':
-    ashram = Train("Ashram Express", 385, 1000, "Ahmedabad", "Jaipur", 19807)
+    ashram = Train("Subhash Express", 385, 1000, "Delhi", "Kolkata", 19807)
     ashram.greet()
     ashram.getTrainInfo()
     ashram.changeFare(500)
